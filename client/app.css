@@ -1,86 +1,93 @@
 body {
-    background-image: url("back.jpg");
-    background-size: cover;
+  background-image: url("background.jpg");
+  background-size: cover;
 }
-.name{
-    width: 333px;
-    height: 50px;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    background-color: rgba(52, 212, 218, 0.774);
-    font-family: sans-serif;    
-    border: 4px solid black;
+
+.main {
+  margin: 15px;
+}
+
+.name {
+  width: 333px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 27, 63, 0);
+  font-family: sans-serif;
+  /* border: 1px solid black; */
+  color: #087d7e;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .two-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .building {
-    width: auto;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    float: left
+  width: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  float: left;
 }
-.side1, .side2{
-    display: block;
-    width: 140px;
-    height: 500px; 
-    opacity: 0.9;   
+.side1,
+.side2 {
+  display: block;
+  width: 140px;
+  height: 500px;
+  opacity: 0.9;
 }
 .side1 img {
-    width: 140px;
-    height: 500px; 
+  width: 140px;
+  height: 500px;
 }
 .side2 img {
-    width: 140px;
-    height: 500px; 
+  width: 140px;
+  height: 500px;
 }
-.lift{
-    width: 60px;
-    height: 496px;
-    background-color: rgba(0, 0, 0, 0.877);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    opacity: 0.9;
+.lift {
+  width: 60px;
+  height: 496px;
+  background-color: rgba(0, 0, 0, 0.877);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  opacity: 0.9;
 }
-#lift_position{
-    position: relative;
-    float: inline-end;
-    opacity: 0.7;
+#lift_position {
+  position: relative;
+  float: inline-end;
+  opacity: 0.7;
 }
 .for {
-    width: 300px;
-    height: auto;
-    display: block;
-    border-radius: 50px;
-    text-align: center;
-    float: left;
-    border: 3px solid black;
-    background-color: rgba(99, 179, 139, 0.849);
+  width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 50px;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+  /* border: 1px solid black; */
+  background-color: rgba(19, 19, 19, 0);
 }
 .for h4 {
-    font-size: xx-large;
-    font-weight: 400;
-    font-family: Comic Sans MS;
-    color: rgb(255, 0, 0);
+  font-size: xx-large;
+  font-weight: 400;
+  /* font-family: Comic Sans MS; */
+  color: #087d7e;
 }
 #interactbtn {
-    height: 50px;
-    width: 120px;
-    border:  2px solid red;
-    border-radius: 10px;
-    font-size: 20px;
-    transition-duration: 4ms;
+  text-transform: uppercase;
+  height: 70px;
+  width: 200px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 6px;
+  font-size: 20px;
+  transition-duration: 4ms;
+  background-color: #087d7e;
+  color: white;
 }
 #interactbtn:active {
-    background-color: red;
-    color: white;
-    border: 2px solid black;
-    border-radius: 10px;
+  background-color: #065253;
 }
-
-
-
